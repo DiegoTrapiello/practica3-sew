@@ -1,0 +1,23 @@
+body {
+    background-color: white;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    color: blueviolet;
+}
+
+h2 {
+    text-align: center;
+    color: coral;
+}
+
+h3 {
+    text-align: center;
+    color: darkorange;
+}
+
+p {
+    color: darkcyan;
+}
