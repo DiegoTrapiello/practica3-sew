@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>CalculadoraBasica</title>
+<link rel="stylesheet" href="CalculadoraBasica.css"/>
+</head>
+<body>
+<h1>Calculadora básica</h1>
+<main>
+<input type="text" id="expresion"  disabled />
+<script src="CalculadoraBasica.js"></script>
+<ul>
+<!--- Primera fila de botones-->
+<li><input type ="button" value ="mrc" onclick="calculadora.mrc()" /></li>
+<li><input type ="button" value ="m-" onclick="calculadora.mMenos()" /></li>
+<li><input type ="button" value ="m+" onclick="calculadora.mMas()" /></li>
+<li><input type ="button" value ="/" onclick="calculadora.division()" /></li>
+
+<!--- Segunda fila de botones-->
+<li><input type ="button" value ="7" onclick="calculadora.digitos(7)" /></li>
+<li><input type ="button" value ="8" onclick="calculadora.digitos(8)" /></li>
+<li><input type ="button" value ="9" onclick="calculadora.digitos(9)" /></li>
+<li><input type ="button" value ="*" onclick="calculadora.multiplicacion()" /></li>
+
+<!--- Tercera fila de botones-->
+<li><input type ="button" value ="4" onclick="calculadora.digitos(4)" /></li>
+<li><input type ="button" value ="5" onclick="calculadora.digitos(5)" /></li>
+<li><input type ="button" value ="6" onclick="calculadora.digitos(6)" /></li>
+<li><input type ="button" value ="-" onclick="calculadora.resta()" /></li>
+
+<!--- Cuarta fila de botones-->
+<li><input type ="button" value ="1" onclick="calculadora.digitos(1)" /></li>
+<li><input type ="button" value ="2" onclick="calculadora.digitos(2)" /></li>
+<li><input type ="button" value ="3" onclick="calculadora.digitos(3)" /></li>
+<li><input type ="button" value ="+" onclick="calculadora.suma()" /></li>
+
+<!--- Quinta fila de botones-->
+<li><input type ="button" value ="0" onclick="calculadora.digitos(0)" /></li>
+<li><input type ="button" value ="." onclick="calculadora.punto()" /></li>
+<li><input type ="button" value ="C" onclick="calculadora.borrar()" /></li>
+<li><input type ="button" value ="=" onclick="calculadora.igual()" /></li>
+</ul>
+</main> 
+</body>
+</html>

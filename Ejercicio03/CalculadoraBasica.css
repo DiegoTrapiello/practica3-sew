@@ -1,0 +1,17 @@
+ul {
+    list-style-type: none;
+    grid-template-columns: 4em 4em 4em 4em;
+    display: grid;
+}
+
+
+li {
+    width: 4em;
+    height: 5em;
+}
+
+main {
+    width: 16em;
+    height: 20em;
+    background-color: #4CAF50;
+}
