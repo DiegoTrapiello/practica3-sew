@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>CalculadoraRPN</title>
+<link rel="stylesheet" href="Calculadora.css"/>
+</head>
+<body>
+<h1>Calculadora RPN</h1>
+<main>
+<section id="contenido"></section>
+<input type="text" id="expresion"  disabled />
+<script src="Calculadora.js"></script>
+<ul>
+
+    <!--- Primera fila de botones-->
+    
+    <li><input type ="button" value ="+" onclick="calculadora.suma()" /></li>
+
+    <li><input type ="button" value ="7" onclick="calculadora.digitos(7)" /></li>
+
+    <li><input type ="button" value ="8" onclick="calculadora.digitos(8)" /></li>
+
+    <li><input type ="button" value ="9" onclick="calculadora.digitos(9)" /></li>
+
+    <!--- Segunda fila de botones-->
+    <li><input type ="button" value ="-" onclick="calculadora.resta()" /></li>
+
+    <li><input type ="button" value ="4" onclick="calculadora.digitos(4)" /></li>
+
+    <li><input type ="button" value ="5" onclick="calculadora.digitos(5)" /></li>
+
+    <li><input type ="button" value ="6" onclick="calculadora.digitos(6)" /></li>
+
+
+     <!--- Tercera fila de botones-->
+    <li><input type ="button" value ="*" onclick="calculadora.multiplicacion()" /></li>
+
+    <li><input type ="button" value ="1" onclick="calculadora.digitos(1)" /></li>
+
+    <li><input type ="button" value ="2" onclick="calculadora.digitos(2)" /></li>
+
+    <li><input type ="button" value ="3" onclick="calculadora.digitos(3)" /></li>
+
+
+     <!--- Cuarta fila de botones-->
+    <li><input type ="button" value ="/" onclick="calculadora.division()" /></li>
+
+    <li><input type ="button" value ="." onclick="calculadora.punto()" /></li>
+
+    <li><input type ="button" value ="0" onclick="calculadora.digitos(0)" /></li>
+
+    <li><input type ="button" value ="enter" onclick="calculadora.enter()" /></li>
+
+</ul>
+</main> 
+</body>
+</html>

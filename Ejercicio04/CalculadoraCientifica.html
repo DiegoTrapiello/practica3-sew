@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>CalculadoraCientifica</title>
+<link rel="stylesheet" href="CalculadoraCientifica.css"/>
+</head>
+<body>
+<h1>Calculadora Científica</h1>
+<main>
+<input type="text" id="expresion"  disabled />
+<script src="CalculadoraBasica.js"></script>
+<script src="CalculadoraCientifica.js"></script>
+
+<ul>
+<!--- Primera fila de botones-->
+<li><input type ="button" value ="sen" onclick="calculadora.sen()" /></li>
+
+<li><input type ="button" value ="cos" onclick="calculadora.cos()" /></li>
+
+<li><input type ="button" value ="tan" onclick="calculadora.tan()" /></li>
+
+<li><input type ="button" value ="arcsen" onclick="calculadora.arcsen()" /></li>
+
+<li><input type ="button" value ="arccos" onclick="calculadora.arccos()" /></li>
+
+<li><input type ="button" value ="arctan" onclick="calculadora.arctan()" /></li>
+
+<!--- Segunda fila de botones-->
+<li><input type ="button" value ="exp" onclick="calculadora.exponencial()" /></li>
+
+<li><input type ="button" value ="log" onclick="calculadora.log()" /></li>
+
+<li><input type ="button" value ="x^2" onclick="calculadora.cuadrado()" /></li>
+
+<li><input type ="button" value ="√" onclick="calculadora.raizCuadrada()" /></li>
+
+<li><input type ="button" value ="x^y" onclick="calculadora.elevado()" /></li>
+
+<li><input type ="button" value ="C" onclick="calculadora.borrar()" /></li>
+
+<!--- Tercera fila de botones-->
+<li><input type ="button" value ="m+" onclick="calculadora.mMas()" /></li>
+<li><input type ="button" value ="m-" onclick="calculadora.mMenos()" /></li>
+
+<li><input type ="button" value ="7" onclick="calculadora.digitos(7)" /></li>
+<li><input type ="button" value ="8" onclick="calculadora.digitos(8)" /></li>
+<li><input type ="button" value ="9" onclick="calculadora.digitos(9)" /></li>
+
+<li><input type ="button" value ="mrc" onclick="calculadora.mrc()" /></li>
+
+<!--- Cuarta fila de botones-->
+<li><input type ="button" value ="*" onclick="calculadora.multiplicacion()" /></li>
+
+<li><input type ="button" value ="/" onclick="calculadora.division()" /></li>
+
+<li><input type ="button" value ="4" onclick="calculadora.digitos(4)" /></li>
+<li><input type ="button" value ="5" onclick="calculadora.digitos(5)" /></li>
+<li><input type ="button" value ="6" onclick="calculadora.digitos(6)" /></li>
+<li><input type ="button" value ="." onclick="calculadora.punto()" /></li>
+
+<!--- Cuarta fila de botones-->
+<li><input type ="button" value ="-" onclick="calculadora.resta()" /></li>
+
+<li><input type ="button" value ="+" onclick="calculadora.suma()" /></li>
+
+<li><input type ="button" value ="1" onclick="calculadora.digitos(1)" /></li>
+<li><input type ="button" value ="2" onclick="calculadora.digitos(2)" /></li>
+<li><input type ="button" value ="3" onclick="calculadora.digitos(3)" /></li>
+<li><input type ="button" value ="=" onclick="calculadora.igual()" /></li>
+
+<!--- Quinta fila de botones-->
+<li><input type ="button" value ="0" onclick="calculadora.digitos(0)" /></li>
+
+</ul>
+</main> 
+</body>
+</html>
