@@ -7,8 +7,17 @@
 </head>
 <body>
 <h1>Calculadora Científica</h1>
+<p>
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss"
+            alt="¡CSS Válido!" />
+
+            <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="¡CSS Válido!" />
+</p>
 <main>
-<input type="text" id="expresion"  disabled />
+<input type="text" id="expresion"  title="Pantalla de la calculadora" disabled />
 <script src="CalculadoraBasica.js"></script>
 <script src="CalculadoraCientifica.js"></script>
 
@@ -70,7 +79,7 @@
 <li><input type ="button" value ="=" onclick="calculadora.igual()" /></li>
 
 <!--- Quinta fila de botones-->
-<li><input type ="button" value ="0" onclick="calculadora.digitos(0)" /></li>
+<li  class="boton-cero"><input type ="button" value ="0" onclick="calculadora.digitos(0)" /></li>
 
 </ul>
 </main> 

@@ -5,42 +5,72 @@ class CalculadoraCientifica extends Calculadora
     }
 
     sen(){
-      this.pantalla.value = Math.sin(eval(this.pantalla.value));
+      this.valor = eval(this.pantalla.value);
+      if (!isNaN(this.valor)){
+        this.pantalla.value = Math.sin(this.valor);
+      }
     }
 
     cos(){
-      this.pantalla.value = Math.cos(eval(this.pantalla.value));
+      this.valor = eval(this.pantalla.value);
+      if (!isNaN(this.valor)){
+        this.pantalla.value = Math.cos(this.valor);
+      }
     }
 
     tan(){
-      this.pantalla.value = Math.tan(eval(this.pantalla.value));
+      this.valor = eval(this.pantalla.value);
+      if (!isNaN(this.valor)){
+        this.pantalla.value = Math.tan(this.valor);
+      }
     }
 
     arcsen(){
-      this.pantalla.value = Math.asin(eval(this.pantalla.value));
+      this.valor = eval(this.pantalla.value);
+      if (!isNaN(this.valor)){
+        this.pantalla.value = Math.asin(this.valor);
+      }
     }
 
     arccos(){
-      this.pantalla.value = Math.acos(eval(this.pantalla.value));
+      this.valor = eval(this.pantalla.value);
+      if (!isNaN(this.valor)){
+        this.pantalla.value = Math.acos(this.valor);
+      }
     }
 
     arctan(){
-      this.pantalla.value = Math.atan(eval(this.pantalla.value));
+      this.valor = eval(this.pantalla.value);
+      if (!isNaN(this.valor)){
+        this.pantalla.value = Math.atan(this.valor);
+      }
     }
     exponencial(){
-       this.pantalla.value= Math.exp(eval(this.pantalla.value));
+      this.valor = eval(this.pantalla.value);
+      if (!isNaN(this.valor)){
+        this.pantalla.value = Math.exp(this.valor);
+      }
     }
 
     log(){
-       this.pantalla.value = Math.log(eval(this.pantalla.value));
+      this.valor = eval(this.pantalla.value);
+      if (!isNaN(this.valor)){
+        this.pantalla.value = Math.log(this.valor);
+      }
     }
 
     cuadrado(){
-       this.pantalla.value=Math.pow(eval(this.pantalla.value),2);
+      this.valor = eval(this.pantalla.value);
+      if (!isNaN(this.valor)){
+        this.pantalla.value = Math.pow(this.valor,2);
+      }
     }
 
     raizCuadrada(){
-      this.pantalla.value = Math.sqrt(eval(this.pantalla.value));
+      this.valor = eval(this.pantalla.value);
+      if (!isNaN(this.valor)){
+        this.pantalla.value = Math.sqrt(this.valor);
+      }
     }
 
     elevado(){
