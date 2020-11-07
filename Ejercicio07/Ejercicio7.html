@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="Ejercicio7.css">
+    <title>Ejercicio 7</title>
+    <script src="jquery-3.4.1.js"></script>
+    <meta name=viewport content="width=device-width, initial-scale=1" />
+    <script src="Ejercicio7.js"></script>
+</head>
+
+<body>
+    <header>Esto es el header</header>
+    <h1 id="elementoH1"> Esto es un encabezado h1</h1>
+    <h2 id="elementoH2"> Esto es un encabezado h2</h2>
+    <p id="elementoParrafo">Esto es un párrafo</p>
+    <p>Esto es un párrafo</p>
+    <h2> Esto es un encabezado h2</h2>
+    <h3> Esto es un encabezado h3</h3>
+    <p>Esto es un párrafo</p>
+    <h3> Esto es un encabezado h3</h3>
+    <p>Esto es un párrafo</p>
+    <h3> Esto es un encabezado h3</h3>
+    <p>Esto es un párrafo</p>
+
+    <p>Esto es un párrafo</p>
+    <p>Esto es un párrafo</p>
+    <p>Esto es un párrafo</p>
+    <p>Esto es un párrafo</p>
+    <p>Esto es un párrafo</p>
+
+    <table>
+        <tr>
+            <th>Fila 1</th>
+            <td>Fila 1</td>
+            <td>Fila 1</td>
+            <td>Fila 1</td>
+        </tr>
+        <tr>
+            <th>Fila 2</th>
+            <td>Fila 2</td>
+            <td>Fila 2</td>
+            <td>Fila 2</td>
+        </tr>
+        <tr>
+            <th>Fila 3</th>
+            <td>Fila 3</td>
+            <td>Fila 3</td>
+            <td>Fila 3</td>
+        </tr>
+        <tr>
+            <th>Fila 4</th>
+            <td>Fila 4</td>
+            <td>Fila 4</td>
+            <td>Fila 4</td>
+        </tr>
+    </table>
+
+    <div class="botones">
+        <div class="botonesOcultar">
+            <button type="button" id="ocultarParrafos" onclick="ocultador.ocultarParrafo()">Ocultar Parrafos</button>
+            <button type="button" id="ocultarHeader" onclick="ocultador.ocultarHeader()">Ocultar Header</button>
+            <button type="button" id="ocultarFooter" onclick="ocultador.ocultarFooter()">Ocultar Footer</button>
+            <button type="button" id="ocultarTabla" onclick="ocultador.ocultarTabla()">Ocultar Tabla</button>
+            <button type="button" id="ocultarH1" onclick="ocultador.ocultarH1()">Ocultar H1</button>
+            <button type="button" id="ocultarH2" onclick="ocultador.ocultarH2()">Ocultar H2</button>
+            <button type="button" id="ocultarH3" onclick="ocultador.ocultarH3()">Ocultar H3</button>
+        </div>
+        <div class="botonesMostrar">
+            <button type="button" id="mostrarParrafos" onclick="mostrador.mostrarParrafo()">Mostrar Parrafos</button>
+            <button type="button" id="mostrarHeader" onclick="mostrador.mostrarHeader()">Mostrar Header</button>
+            <button type="button" id="mostrarFooter" onclick="mostrador.mostrarFooter()">Mostrar Footer</button>
+            <button type="button" id="mostrarTabla" onclick="mostrador.mostrarTabla()">Mostrar Tabla</button>
+            <button type="button" id="mostrarH1" onclick="mostrador.mostrarH1()">Mostrar H1</button>
+            <button type="button" id="mostrarH2" onclick="mostrador.mostrarH2()">Mostrar H2</button>
+            <button type="button" id="mostrarH3" onclick="mostrador.mostrarH3()">Mostrar H3</button>
+        </div>
+        <div class="botonesModificar">
+            <button type="button" id="modificarParrafos" onclick="modificador.invertirTextoParrafos()">Invertir texto
+                párrafos</button>
+            <button type="button" id="modificarTabla" onclick="modificador.invertirTextoTabla()">Invertir texto
+                tabla</button>
+            <button type="button" id="modificarH1" onclick="modificador.invertirTextoH1()">Invertir texto h1</button>
+        </div>
+        <div class="botonesAniadir">
+            <button type="button" id="aniadirParrafosDespues" onclick="aniadidor.aniadirParrafoDespuesDeH2()">Añadir
+                párrafo despues de H2</button>
+            <button type="button" id="aniadirTabla" onclick="aniadidor.aniadirH2despuesDeH1()">Añadir h2 después de
+                h1</button>
+            <button type="button" id="aniadirH1" onclick="aniadidor.aniadirH3antesDeParrafo()">Añadir h3 antes de
+                párrafo</button>
+            <button type="button" id="aniadirParrafosAntes" onclick="aniadidor.aniadirParrafoAntesDeParrafo()">Añadir
+                párrafo antes de párrafo</button>
+            <button type="button" id="aniadirContenidoFooter" onclick="aniadidor.aniadirContenidoAFooter()">Añadir
+                contenido al footer</button>
+
+        </div>
+
+        <div class="botonesEliminar">
+            <button type="button" id="eliminarParrafos" onclick="eliminador.eliminarParrafos()">Eliminar
+                Párrafos</button>
+            <button type="button" id="eliminarTabla" onclick="eliminador.eliminarTabla()">Eliminar Tablas</button>
+            <button type="button" id="eliminarH3" onclick="eliminador.eliminarH3()">Eliminar h3</button>
+
+        </div>
+
+        <div class="botonesRecorrer">
+            <button type="button" id="recorredor" onclick="recorredor.recorrer()">Recorrer, mostrar padres y tipo de
+                elemento</button>
+        </div>
+
+        <div class="botonesSumar">
+            <button type="button" id="sumarFilasTablas" onclick="sumador.sumarFilasYColumnas()">Sumar Filas Y Columnas
+                de Tablas</button>
+        </div>
+
+
+    </div>
+
+
+    <footer id=elementoFooter>Esto es el footer
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                alt="¡CSS Válido!" />
+        </a>
+
+        <a href="https://validator.w3.org/check?uri=referer"><img
+                src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" alt="HTML5 Válido" title="HTML5 Válido"
+                height="64" width="63" />
+        </a>
+    </footer>
+
+
+</body>
+
+</html>
