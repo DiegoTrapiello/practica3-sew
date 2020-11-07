@@ -25,9 +25,9 @@
         <label for="peso">Peso (en Kg) </label>
         <label for="altura">Altura (en Cm) </label>
         <label for="imc">IMC </label>
-        <input type="number" id="peso" name ="peso" minlength="2" maxlength="4" oninput="calculadora.calcularIMC()" required>
-        <input type="number" id="altura" name ="altura" minlength="2" maxlength="5"  oninput="calculadora.calcularIMC()" required>
-        <input type="number" id="imc" name ="imc" minlength="2" maxlength="5" disabled>
+        <input type="number" id="peso" name ="peso" oninput="calculadora.calcularIMC()" required>
+        <input type="number" id="altura" name ="altura"  oninput="calculadora.calcularIMC()" required>
+        <input type="number" id="imc" name ="imc" disabled>
     </div>
 <textarea id="expresion" title="Pantalla de la calculadora"  disabled></textarea>
 <script src="CalculadoraDietetica.js"></script>
@@ -99,10 +99,9 @@
 <li><input type ="button" value ="Baloncesto" onclick="calculadora.RestarCalorias(260)" /></li>
 
 <li  class="calcular"><input type ="button" value ="Calcular" onclick="calculadora.calcular()" /></li>
-<li  class="resetear"><input type ="button" value ="Resetear" onclick="calculadora.resetear()" value ="Resetear" /></li>
+<li  class="resetear"><input type ="button" value ="Resetear" onclick="calculadora.resetear()" /></li>
 
 </ul>
 </main> 
-</div>
 </body>
 </html>
