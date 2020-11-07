@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name=viewport content="width=device-width, initial-scale=0.5">
+<title>CalculadoraDietetica</title>
+<link rel="stylesheet" href="CalculadoraDietetica.css"/>
+</head>
+<body>
+<div class ="wrapper"></div>
+<h1>Calculadora Dietética</h1>
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdiegotrapiello.github.io%2Fpractica3-sew%2FEjercicio03%2FCalculadoraBasica.html&profile=css3svg&usermedium=all&warning=2&vextwarning=">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss"
+            alt="¡CSS Válido!" />
+
+            <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="¡CSS Válido!" />
+    </a>
+</p>       
+<main>
+    <div class ="imc">
+        <label for="peso">Peso (en Kg) </label>
+        <label for="altura">Altura (en Cm) </label>
+        <label for="imc">IMC </label>
+        <input type="number" id="peso" name ="peso" minlength="2" maxlength="4" oninput="calculadora.calcularIMC()" required>
+        <input type="number" id="altura" name ="altura" minlength="2" maxlength="5"  oninput="calculadora.calcularIMC()" required>
+        <input type="number" id="imc" name ="imc" minlength="2" maxlength="5" disabled>
+    </div>
+<textarea id="expresion" title="Pantalla de la calculadora"  disabled></textarea>
+<script src="CalculadoraDietetica.js"></script>
+<ul>
+ <li  class="alimentos"><input type ="button" value ="Alimentos (100g)" disabled /></li>
+
+<li><input type ="button" value ="Albondigas" onclick="calculadora.AddCalorias(202)" /></li>
+
+<li><input type ="button" value ="Arroz Frito" onclick="calculadora.AddCalorias(186)" /></li>
+
+<li><input type ="button" value ="Burrito" onclick="calculadora.AddCalorias(170)" /></li>
+
+<li><input type ="button" value ="Canelones" onclick="calculadora.AddCalorias(153)" /></li>
+
+<li><input type ="button" value ="Carne con tomate" onclick="calculadora.AddCalorias(240)" /></li>
+
+<li><input type ="button" value ="Canelones" onclick="calculadora.AddCalorias(153)" /></li>
+
+<li><input type ="button" value ="Chuleta" onclick="calculadora.AddCalorias(225)" /></li>
+
+<li><input type ="button" value ="Empanada de atun" onclick="calculadora.AddCalorias(251)" /></li>
+
+<li><input type ="button" value ="Ensalada de patata" onclick="calculadora.AddCalorias(143)" /></li>
+
+<li><input type ="button" value ="Gazpacho" onclick="calculadora.AddCalorias(80)" /></li>
+
+<li><input type ="button" value ="Lomo de cerdo asado" onclick="calculadora.AddCalorias(247)" /></li>
+
+
+<li><input type ="button" value ="Milanesa de ternera" onclick="calculadora.AddCalorias(251)" /></li>
+
+
+<li><input type ="button" value ="Paella" onclick="calculadora.AddCalorias(156)" /></li>
+
+<li><input type ="button" value ="Patatas alioli" onclick="calculadora.AddCalorias(250)" /></li>
+
+<li><input type ="button" value ="Pizza" onclick="calculadora.AddCalorias(267)" /></li>
+
+<li><input type ="button" value ="Salmorejo" onclick="calculadora.AddCalorias(87)" /></li>
+
+<li><input type ="button" value ="Taco" onclick="calculadora.AddCalorias(217)" /></li>
+
+<li><input type ="button" value ="Tortilla de patatas" onclick="calculadora.AddCalorias(126)" /></li>
+
+<li  class="ejercicios"><input type ="button" value ="Ejercicios (30 min)" disabled /></li>
+
+<li><input type ="button" value ="Dormir" onclick="calculadora.RestarCalorias(90)" /></li>
+
+<li><input type ="button" value ="Estar sentado" onclick="calculadora.RestarCalorias(84)" /></li>
+
+<li><input type ="button" value ="Pasear" onclick="calculadora.RestarCalorias(150)" /></li>
+
+<li><input type ="button" value ="Bailar" onclick="calculadora.RestarCalorias(190)" /></li>
+
+<li><input type ="button" value ="Correr" onclick="calculadora.RestarCalorias(325)" /></li>
+
+<li><input type ="button" value ="Bicicleta" onclick="calculadora.RestarCalorias(230)" /></li>
+
+<li><input type ="button" value ="Natacion" onclick="calculadora.RestarCalorias(290)" /></li>
+
+<li><input type ="button" value ="Tenis" onclick="calculadora.RestarCalorias(260)" /></li>
+
+<li><input type ="button" value ="Artes marciales" onclick="calculadora.RestarCalorias(360)" /></li>
+
+<li><input type ="button" value ="Aerobico" onclick="calculadora.RestarCalorias(180)" /></li>
+
+<li><input type ="button" value ="Futbol" onclick="calculadora.RestarCalorias(260)" /></li>
+
+<li><input type ="button" value ="Baloncesto" onclick="calculadora.RestarCalorias(260)" /></li>
+
+<li  class="calcular"><input type ="button" value ="Calcular" onclick="calculadora.calcular()" /></li>
+<li  class="resetear"><input type ="button" value ="Resetear" onclick="calculadora.resetear()" value ="Resetear" /></li>
+
+</ul>
+</main> 
+</div>
+</body>
+</html>

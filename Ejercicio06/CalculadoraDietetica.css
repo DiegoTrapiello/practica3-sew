@@ -1,0 +1,125 @@
+ul {
+    display: grid;
+    grid-template-columns: repeat(6, 0.5fr);
+    grid-gap: 2em;
+    padding: 2em;
+    list-style-type: none;
+}
+
+
+h1 {
+    font-size: 3em;
+    display: block;
+}
+
+
+main {
+    display: block;
+    border: 1em solid #ccc;
+    border-radius: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 95em;
+}
+
+#expresion {
+    width: 100%;
+    font-size: 3rem;
+    height: 3em;
+    border: none;
+    background-color: #252525;
+    color: #fff;
+    text-align: right;
+    resize: none;
+}
+
+li,
+input {
+    height: 2.5em;
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid #c4c4c4;
+    background-color: transparent;
+    font-size: 1.5rem;
+    color: #333;
+    background-image: linear-gradient(to bottom, transparent, transparent 50%, rgba(0, 0, 0, .04));
+}
+
+li input {
+    width: 100%;
+    height: 100%
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+.alimentos {
+    width: 100%;
+    grid-area: 1 / 1 / 1 / 7;
+    font-size: 2rem;
+}
+
+.alimentos input {
+
+    background-color: #9a2617;
+    color: #fff;
+    font-size: 2rem;
+}
+
+
+.ejercicios {
+    width: 100%;
+    grid-area: 5 / 1 / 5 / 7;
+    font-size: 2rem;
+}
+
+.ejercicios input {
+
+    background-color: #093145;
+    color: #fff;
+    font-size: 2rem;
+}
+
+label {
+    display: block;
+    font: 1.5rem 'Fira Sans', sans-serif;
+}
+
+.imc {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.5em;
+    padding: 1.5em;
+    list-style-type: none;
+}
+
+
+.calcular {
+    width: 100%;
+    grid-area: 8 / 1 / 8 / 4;
+    font-size: 2rem;
+}
+
+.calcular input {
+
+    background-color: black;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.resetear {
+    width: 100%;
+    grid-area: 8 / 4 / 8 / 7;
+    font-size: 2rem;
+}
+
+.resetear input {
+
+    background-color: #fff;
+    color: #093145;
+    font-size: 2rem;
+}
