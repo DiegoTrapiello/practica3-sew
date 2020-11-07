@@ -2,18 +2,48 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
+<meta name=viewport content="width=device-width, initial-scale=1">
 <title>CalculadoraRPN</title>
 <link rel="stylesheet" href="Calculadora.css"/>
 </head>
 <body>
 <h1>Calculadora RPN</h1>
+<p>
+    <img style="border:0;width:88px;height:31px"
+        src="https://jigsaw.w3.org/css-validator/images/vcss"
+        alt="¡CSS Válido!" />
+
+        <img style="border:0;width:88px;height:31px"
+        src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="¡CSS Válido!" />
+</p>
 <main>
 <section id="contenido"></section>
-<input type="text" id="expresion"  disabled />
+<input type="text" id="expresion" title="Pantalla de la calculadora"  disabled />
 <script src="Calculadora.js"></script>
 <ul>
 
-    <!--- Primera fila de botones-->
+    <!---  fila de botones-->
+
+    <li><input type ="button" value ="sen" onclick="calculadora.sen()" /></li>
+
+    <li><input type ="button" value ="cos" onclick="calculadora.cos()" /></li>
+
+    <li><input type ="button" value ="tan" onclick="calculadora.tan()" /></li>
+
+    <li><input type ="button" value ="log" onclick="calculadora.log()" /></li>
+
+       <!---  fila de botones-->
+
+    <li><input type ="button" value ="arcsen" onclick="calculadora.arcsen()" /></li>
+
+    <li><input type ="button" value ="arccos" onclick="calculadora.arccos()" /></li>
+
+    <li><input type ="button" value ="arctan" onclick="calculadora.arctan()" /></li>
+
+    <li><input type ="button" value ="exp" onclick="calculadora.exponencial()" /></li>
+
+       <!---  fila de botones-->
     
     <li><input type ="button" value ="+" onclick="calculadora.suma()" /></li>
 
@@ -23,7 +53,7 @@
 
     <li><input type ="button" value ="9" onclick="calculadora.digitos(9)" /></li>
 
-    <!--- Segunda fila de botones-->
+    <!---  fila de botones-->
     <li><input type ="button" value ="-" onclick="calculadora.resta()" /></li>
 
     <li><input type ="button" value ="4" onclick="calculadora.digitos(4)" /></li>
@@ -33,7 +63,7 @@
     <li><input type ="button" value ="6" onclick="calculadora.digitos(6)" /></li>
 
 
-     <!--- Tercera fila de botones-->
+     <!---  fila de botones-->
     <li><input type ="button" value ="*" onclick="calculadora.multiplicacion()" /></li>
 
     <li><input type ="button" value ="1" onclick="calculadora.digitos(1)" /></li>
@@ -43,7 +73,7 @@
     <li><input type ="button" value ="3" onclick="calculadora.digitos(3)" /></li>
 
 
-     <!--- Cuarta fila de botones-->
+     <!---  fila de botones-->
     <li><input type ="button" value ="/" onclick="calculadora.division()" /></li>
 
     <li><input type ="button" value ="." onclick="calculadora.punto()" /></li>
@@ -51,6 +81,10 @@
     <li><input type ="button" value ="0" onclick="calculadora.digitos(0)" /></li>
 
     <li><input type ="button" value ="enter" onclick="calculadora.enter()" /></li>
+
+    <li class="limpiar-ultimo"><input type ="button" value ="Limpiar ultimo"  onclick="calculadora.limpiarUltimo()" /></li>
+
+    <li class="limpiar-memoria"><input type ="button" value ="Limpiar memoria"  onclick="calculadora.limpiarMemoria()" /></li>
 
 </ul>
 </main> 
