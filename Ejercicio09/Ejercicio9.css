@@ -1,0 +1,46 @@
+/* a=0 b=0 c=1 -> specificity =   1 */
+h1 {
+    font-size: 3em;
+    text-align: center;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    background-color: rgb(162, 233, 255);
+}
+
+/* a=0 b=0 c=1 -> specificity =   1 */
+h2 {
+    font-size: 2em;
+    text-align: center;
+    color: rgb(39, 39, 39);
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(162, 233, 255);
+    font-weight: lighter;
+}
+
+
+/* a=0 b=0 c=2 -> specificity =   2 */
+ul li {
+    align-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgb(162, 233, 255);
+    list-style-type: none;
+}
+
+/* a=0 b=0 c=1 -> specificity =   1 */
+body {
+    background-color: rgb(162, 233, 255);
+    color: black;
+}
+
+/* a=0 b=0 c=1 -> specificity =   1 */
+h5 {
+    background-color: rgb(206, 244, 255);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
