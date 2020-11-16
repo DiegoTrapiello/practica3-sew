@@ -1,0 +1,58 @@
+h1 {
+    font-size: 2.5em;
+    font-family: Dosis, Georgia, Times, serif;
+    text-align: center;
+}
+
+label,
+input {
+    font-family: Dosis, Georgia, Times, serif;
+}
+
+
+
+h2 {
+    font-size: 1.7em;
+    font-family: Dosis, Georgia, Times, serif;
+    text-align: center;
+    color: midnightblue;
+    background-color: gainsboro;
+
+}
+
+h4 {
+    font-size: 1.2em;
+    font-family: Dosis, Georgia, Times, serif;
+    text-align: center;
+
+}
+
+p {
+    font-family: Dosis, Georgia, Times, serif;
+    text-align: center;
+}
+
+pre {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+p {
+    font-size: 1em;
+}
+
+body {
+    background-color: gainsboro;
+    color: rgb(34, 34, 34);
+}
+
+button {
+    font-family: Dosis, Georgia, Times, serif;
+    font-size: 1.5em;
+    margin: 20px 20px 20px 20px;
+}
+
+ul {
+    list-style-type: none;
+}

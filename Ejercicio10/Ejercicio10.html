@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Ejercicio 10</title>
+    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+    <script src="jquery-3.4.1.js"></script>    <link rel="stylesheet" href="Ejercicio10.css" />
+    <script src="Ejercicio10.js"></script>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+</head>
+
+<body>
+    <h1>Servicio Web de Noticias</h1>
+    <label for="busqueda">Buscador:</label>
+    <input type="text" id="busqueda" name="busqueda" required
+    oninput="noticias.habilitarBoton()">
+    <button id="buscar" onclick="noticias.obtenerJSON()" disabled>Obtener noticias</button>
+    <footer>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="¡CSS Válido!" />
+        </a>
+
+        <a href="https://validator.w3.org/check?uri=referer"><img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png"
+                alt="HTML5 Válido" title="HTML5 Válido" height="64" width="63" />
+        </a>
+    </footer>
+</body>
+
+</html>
