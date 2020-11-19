@@ -1,0 +1,1 @@
+Debería mostrarse en el navegador el contenido de este fichero.

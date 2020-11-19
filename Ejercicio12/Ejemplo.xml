@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rutas SYSTEM "rutas.dtd">
+<rutas>
+    <ruta>
+        <nombre>Ruta Morgal-Gijon</nombre>
+        <tipo-de-ruta>Paisajística</tipo-de-ruta>
+        <dificultad>Fácil</dificultad>
+        <inicio>
+            <fecha>2020-10-25</fecha>
+            <hora>12:00:00</hora>
+        </inicio>
+        <duracion>PT2H</duracion>
+        <agencia>Agencia Inventadellas</agencia>
+        <descripcion>Preciosa ruta desde el aeródromo de la Morgal hasta las zonas colindantes de Gijon</descripcion>
+        <personas-adecuadas>Niños y adultos</personas-adecuadas>
+        <lugar-de-inicio>La Morgal</lugar-de-inicio>
+        <direccion-de-inicio>Calle Morgal</direccion-de-inicio>
+        <coordenadas>
+            <latitud>43.436600</latitud>
+            <longitud>-5.831882</longitud>
+            <altitud>180</altitud>
+        </coordenadas>
+        <referencias>
+            <referencia>https://es.wikipedia.org/wiki/Aer%C3%B3dromo_de_La_Morgal</referencia>
+            <referencia>https://es.wikipedia.org/wiki/Gij%C3%B3n</referencia>
+            <referencia>https://es.wikiloc.com/rutas/avion/espana/asturias</referencia>
+        </referencias>
+        <recomendacion>6</recomendacion>
+        <hitos>
+            <hito>
+                <nombre>Elogio del horizonte</nombre>
+                <descripcion>Precioso monumento al borde del mar</descripcion>
+                <coordenadas>
+                    <latitud>43.549469</latitud>
+                    <longitud>-5.663056</longitud>
+                    <altitud>40</altitud>
+                </coordenadas>
+                <distancia valor="25" unidad="kilometros"/>
+                <tiempo valor="45" unidad="minutos"/>
+                <galeria>
+                    <fotos>
+                        <foto>https://upload.wikimedia.org/wikipedia/commons/4/45/Elogio_chillida_gijon.jpg</foto>
+                    </fotos>
+                    <videos>
+                        <video>https://www.youtube.com/watch?v=8gAkD1hD3Po</video>
+                    </videos>
+                </galeria>
+            </hito>
+            <hito>
+                <nombre>Mirador de la providencia</nombre>
+                <descripcion>Hermoso mirador situado al lado de un acantilado</descripcion>
+                <coordenadas>
+                    <latitud>43.555420</latitud>
+                    <longitud>-5.619254</longitud>
+                    <altitud>54</altitud>
+                </coordenadas>
+                <distancia valor="7" unidad="kilometros"/>
+                <tiempo valor="15" unidad="minutos"/>
+                <galeria>
+                    <fotos>
+                        <foto>https://imagenes.20minutos.es/files/image_656_370/uploads/imagenes/2009/07/01/854335a.jpg</foto>
+                    </fotos>
+                </galeria>
+            </hito>
+            <hito>
+                <nombre>Aeropuerto de Asturias</nombre>
+                <descripcion>Impresionante y apoteósico aeropuerto, pináculo de las estructuras aerodinámicas</descripcion>
+                <coordenadas>
+                    <latitud>43.562391</latitud>
+                    <longitud>-6.033584</longitud>
+                    <altitud>127</altitud>
+                </coordenadas>
+                <distancia valor="45" unidad="kilometros"/>
+                <tiempo valor="45" unidad="minutos"/>
+                <galeria>
+                    <fotos>
+                        <foto>https://static2.elcomercio.es/www/multimedia/201807/31/media/cortadas/aeropuerto-asturias-kiFG-U60490483169mNF-624x385@El%20Comercio.jpg</foto>
+                    </fotos>
+                </galeria>
+            </hito>
+        </hitos>
+    </ruta>
+    <ruta>
+        <nombre>Ruta Morgal-Oviedo</nombre>
+        <tipo-de-ruta>Paisajística</tipo-de-ruta>
+        <dificultad>Fácil</dificultad>
+        <duracion>PT3H</duracion>
+        <agencia>Agencia Inventadellas</agencia>
+        <descripcion>Preciosa ruta desde el aeródromo de la Morgal a las proximidades de Oviedo y alrededores</descripcion>
+        <personas-adecuadas>Niños y adultos</personas-adecuadas>
+        <lugar-de-inicio>La Morgal</lugar-de-inicio>
+        <direccion-de-inicio>Calle Morgal</direccion-de-inicio>
+        <coordenadas>
+            <latitud>43.436600</latitud>
+            <longitud>-5.831882</longitud>
+            <altitud>180</altitud>
+        </coordenadas>
+        <referencias>
+            <referencia>https://es.wikipedia.org/wiki/Aer%C3%B3dromo_de_La_Morgal</referencia>
+            <referencia>https://es.wikipedia.org/wiki/Gij%C3%B3n</referencia>
+            <referencia>https://es.wikiloc.com/rutas/avion/espana/asturias</referencia>
+        </referencias>
+        <recomendacion>9</recomendacion>
+        <hitos>
+            <hito>
+                <nombre>Monumento al Sagrado Corazón de Jesus</nombre>
+                <descripcion>Increible estatua situada en la cima del monte Naranco</descripcion>
+                <coordenadas>
+                    <latitud>43.384931</latitud>
+                    <longitud>-5.863950</longitud>
+                    <altitud>640</altitud>
+                </coordenadas>
+                <distancia valor="15" unidad="kilometros"/>
+                <tiempo valor="25" unidad="min"/>
+                <galeria>
+                    <fotos>
+                        <foto>https://mundoxdescubrir.com/wp-content/uploads/2019/12/Oviedo-Asturias-Monte-Naranco.jpg</foto>
+                    </fotos>
+                </galeria>
+            </hito>
+            <hito>
+                <nombre>Parque de Invierno</nombre>
+                <descripcion>Vista aerea de uno de los mejores parques de Oviedo</descripcion>
+                <coordenadas>
+                    <latitud>43.352986</latitud>
+                    <longitud>-5.849966</longitud>
+                    <altitud>250</altitud>
+                </coordenadas>
+                <distancia valor="7" unidad="kilometros"/>
+                <tiempo valor="15" unidad="min"/>
+                <galeria>
+                    <fotos>
+                        <foto>https://www.turismoasturias.es/documents/11022/372543/ParquedeInvierno_1.jpg?t=1392631014576</foto>
+                    </fotos>
+                </galeria>
+            </hito>
+            <hito>
+                <nombre>Aeródromo la Curiscada</nombre>
+                <descripcion>Aeródromo situado en Tineo rodeado de preciosas vistas</descripcion>
+                <coordenadas>
+                    <latitud>43.334841</latitud>
+                    <longitud>-6.378582</longitud>
+                    <altitud>680</altitud>
+                </coordenadas>
+                <distancia valor="60" unidad="kilometros"/>
+                <tiempo valor="2" unidad="horas"/>
+                <galeria>
+                    <fotos>
+                        <foto>https://www.aterriza.org/wp-content/uploads/21781.jpg</foto>
+                    </fotos>
+                </galeria>
+            </hito>
+        </hitos>
+    </ruta>
+    <ruta>
+        <nombre>Ruta Morgal-Picos de Europa</nombre>
+        <tipo-de-ruta>Paisajística</tipo-de-ruta>
+        <dificultad>Solo para expertos</dificultad>
+        <duracion>PT3H</duracion>
+        <agencia>Agencia Inventadellas</agencia>
+        <descripcion>Maravillosa ruta desde la Morgal pasando por los Lagos de Covadonga y Picos de Europa</descripcion>
+        <personas-adecuadas>Niños y adultos</personas-adecuadas>
+        <lugar-de-inicio>La Morgal</lugar-de-inicio>
+        <direccion-de-inicio>Calle Morgal</direccion-de-inicio>
+        <coordenadas>
+            <latitud>43.436600</latitud>
+            <longitud>-5.831882</longitud>
+            <altitud>180</altitud>
+        </coordenadas>
+        <referencias>
+            <referencia>https://es.wikipedia.org/wiki/Aer%C3%B3dromo_de_La_Morgal</referencia>
+            <referencia>https://es.wikipedia.org/wiki/Gij%C3%B3n</referencia>
+            <referencia>https://es.wikiloc.com/rutas/avion/espana/asturias</referencia>
+        </referencias>
+        <recomendacion>8</recomendacion>
+        <hitos>
+            <hito>
+                <nombre>Lagos de Covandonga</nombre>
+                <descripcion>Preciosos lagos situados cerca de los Picos de Europa</descripcion>
+                <coordenadas>
+                    <latitud>43.272418</latitud>
+                    <longitud>-4.991965</longitud>
+                    <altitud>1074</altitud>
+                </coordenadas>
+                <distancia valor="95" unidad="kilometros"/>
+                <tiempo valor="2" unidad="horas"/>
+                <galeria>
+                    <fotos>
+                        <foto>https://descapada.com/wp-content/uploads/2018/09/el-lago-enol-en-los-picos-de-europa-asturias-1-815x459.jpg</foto>
+                    </fotos>
+                </galeria>
+            </hito>
+            <hito>
+                <nombre>Naranjo de Bulnes</nombre>
+                <descripcion>Apoteosica montaña situada en los Picos de Europa</descripcion>
+                <coordenadas>
+                    <latitud>43.212161</latitud>
+                    <longitud>-4.817679</longitud>
+                    <altitud>1543</altitud>
+                </coordenadas>
+                <distancia valor="16" unidad="kilometros"/>
+                <tiempo valor="30" unidad="min"/>
+                <galeria>
+                    <fotos>
+                        <foto>https://upload.wikimedia.org/wikipedia/commons/c/c0/Pico_Urriello_Asturias.JPG</foto>
+                    </fotos>
+                </galeria>
+            </hito>
+            <hito>
+                <nombre>Torre de Cerredo</nombre>
+                <descripcion>Obnubilante montaña cuya ladera sirve para aterrizar aviones como el que realiza la ruta</descripcion>
+                <coordenadas>
+                    <latitud>43.198810</latitud>
+                    <longitud>-4.851470</longitud>
+                    <altitud>2478</altitud>
+                </coordenadas>
+                <distancia valor="3" unidad="kilometros"/>
+                <tiempo valor="15" unidad="min"/>
+                <galeria>
+                    <fotos>
+                        <foto>https://upload.wikimedia.org/wikipedia/commons/a/a1/Torrecerredo.jpg</foto>
+                    </fotos>
+                </galeria>
+            </hito>
+        </hitos>
+    </ruta>
+</rutas>

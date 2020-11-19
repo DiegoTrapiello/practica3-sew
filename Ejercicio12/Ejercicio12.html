@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Ejercicio13</title>
+    <link href="Ejercicio12.css" rel="stylesheet" />
+    <script src="jquery-3.4.1.js"></script>
+</head>
+
+<body>
+    <h1>Ejercicio 12</h1>
+    <h3> Seleccionar archivo, si el archivo es de texto, JSON o XML, se visualizará en el navegador.</h3>
+    <script src="Ejercicio12.js"></script>
+    <input type="file" id="input" onchange="reader.leerArchivoTexto(this.files)">
+    <p id="fileName"></p>
+    <p id="fileSize"></p>
+    <p id="fileType"></p>
+    <p id="lastUpdate"></p>
+    <p id="fileContent"></p>
+    <pre id="textArea"></pre>
+    <p id="readError"></p>
+    <footer>
+        <a>
+            <img style="border:0;width:88px;height:31px"
+                src="https://jigsaw.w3.org/css-validator/images/vcss"
+                alt="¡CSS Válido!" />
+    
+                <img style="border:0;width:88px;height:31px"
+                src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+                alt="¡CSS Válido!" />
+        </a> 
+    </footer>
+
+</body>
+
+</html>
