@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><kml xmlns="http://www.opengis.net/kml/2.2"><Document><Placemark><name>Ruta Morgal-Gijon</name><LineString><extrude>1</extrude><tessellate>1</tessellate><coordinates>-5.831882,43.436600,180
+-5.663056,43.549469,40
+-5.619254,43.555420,54
+-6.033584,43.562391,127
+</coordinates></LineString><Style><LineStyle><color>#ff0000ff</color><width>5</width></LineStyle></Style></Placemark><Placemark><name>Ruta Morgal-Oviedo</name><LineString><extrude>1</extrude><tessellate>1</tessellate><coordinates>-5.831882,43.436600,180
+-5.863950,43.384931,640
+-5.849966,43.352986,250
+-6.378582,43.334841,680
+</coordinates></LineString><Style><LineStyle><color>#ff0000ff</color><width>5</width></LineStyle></Style></Placemark><Placemark><name>Ruta Morgal-Picos de Europa</name><LineString><extrude>1</extrude><tessellate>1</tessellate><coordinates>-5.831882,43.436600,180
+-4.991965,43.272418,1074
+-4.817679,43.212161,1543
+-4.851470,43.198810,2478
+</coordinates></LineString><Style><LineStyle><color>#ff0000ff</color><width>5</width></LineStyle></Style></Placemark></Document></kml>
