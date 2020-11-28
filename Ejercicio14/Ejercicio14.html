@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Ejercicio14</title>
+    <link href="Ejercicio14.css" rel="stylesheet" />
+    <script src="jquery-3.4.1.js"></script>
+</head>
+
+<body>
+    <h1>Aplicacion con varias APIs</h1>
+    <h2> Seleccionar archivo, si el archivo es Mp3 se mostrará un boton con diversas funcionalidades</h2>
+    <script src="Apis.js"></script>
+    <input type="file" id="input" title="Boton para cargar archivo" onchange="reader.leerArchivoAudio(this.files)">
+    <div class="hide" id="hide">
+        <div class="audio-player" id="song"></div>
+        <div class="audio-player-range" id="range">
+            <span>Volumen</span>
+        </div>
+        <div class="audio-player-panner" id="range-panner">
+            <span>Control Stereo</span>
+        </div>
+        <div class="effect-selector" id="effect-selector">
+            <label for="effect">Aplicar Efectos</label>
+            <select id="effect" name="effect">
+                <option value="distortion">Distorsion</option>
+                <option value="reverb">Reverberación</option>
+                <option value="bassboost">Aumento de los graves</option>
+                <option value="off" selected="">Ninguno</option>
+            </select>
+        </div>
+    </div>
+
+
+    <div id="outer">
+        <canvas id="canvas" width="600" height="300"></canvas>
+        <button class="boton" data-playing="false" role="switch" aria-checked="false" disabled>
+            <span>Play/Pause</span>
+        </button>
+
+        <button class="boton" role="switch" aria-checked="false" id="ondas" disabled>
+            <span>Dibujar Ondas</span>
+        </button>
+
+        <button class="boton" role="switch" aria-checked="false" id="barras" disabled>
+            <span>Dibujar barras</span>
+        </button>
+    </div>
+    <footer>
+        <a>
+            <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss"
+                alt="¡CSS Válido!" />
+
+            <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+                alt="¡CSS Válido!" />
+        </a>
+    </footer>
+
+</body>
+
+</html>

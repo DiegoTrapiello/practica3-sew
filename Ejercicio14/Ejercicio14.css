@@ -1,0 +1,63 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+}
+
+p {
+    text-align: left;
+}
+
+footer {
+    margin-top: 2em;
+}
+
+footer a img {
+    height: 31px;
+    width: 88px;
+}
+
+#mapa {
+    height: 700px;
+    width: 100%;
+}
+
+.boton {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#outer {
+    width: 100%;
+    text-align: center;
+}
+
+canvas {
+    display: none;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.5em
+}
+
+.hide {
+    display: none;
+    text-align: center;
+}
+
+html {
+    font-family: Trebuchet MS;
+    color: white;
+    background-color: #093145;
+}
+
+
+input[type=file] {
+    padding: 1em;
+    font-size: 1em;
+    color: white;
+}
