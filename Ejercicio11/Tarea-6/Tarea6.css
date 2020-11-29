@@ -1,0 +1,14 @@
+
+h1{
+    text-align: center;
+    color: red;
+    background-color: white;
+}
+footer{
+    margin-top:2em;
+}
+
+#mapa {
+    height: 700px;
+    width: 100%;
+}
