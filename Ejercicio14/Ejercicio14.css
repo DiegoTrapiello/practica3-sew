@@ -52,7 +52,6 @@ canvas {
 html {
     font-family: Trebuchet MS;
     color: white;
-    background-color: #093145;
 }
 
 
@@ -60,4 +59,8 @@ input[type=file] {
     padding: 1em;
     font-size: 1em;
     color: white;
+}
+
+body {
+    background-color: #093145;
 }
