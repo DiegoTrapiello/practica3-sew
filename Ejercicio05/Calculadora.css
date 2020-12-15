@@ -1,9 +1,10 @@
 ul {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 3em;
-    padding: 3em;
+    grid-template-columns: repeat(4, 20%);
+    grid-gap: 5%;
+    padding: 2em;
     list-style-type: none;
+    margin: auto;
 }
 
 h1 {
@@ -11,13 +12,13 @@ h1 {
 }
 
 main {
+    position: absolute;
     border: 1em solid #ccc;
     border-radius: 1em;
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 50em;
+    /* display: block;*/
+    /*  transform: translate(-50%, -50%);*/
+    width: 50%;
+    height: 40%;
 }
 
 #expresion {
@@ -35,18 +36,19 @@ main {
 
 li,
 input {
-    height: 3em;
+    width: auto;
+    height: auto;
     background-color: #fff;
     border-radius: 3px;
     border: 1px solid #c4c4c4;
     background-color: transparent;
-    font-size: 2rem;
     color: #333;
     background-image: linear-gradient(to bottom, transparent, transparent 50%, rgba(0, 0, 0, .04));
 }
 
 li input {
     width: 100%;
+    height: 100%;
 }
 
 #contenido p {
@@ -56,23 +58,47 @@ li input {
 
 html {
     font-size: 62.5%;
-    box-sizing: border-box;
 }
 
+
 .limpiar-ultimo {
+    width: auto;
+    height: auto;
+    border-radius: 3px;
+    border: 1px solid #c4c4c4;
+    font-size: 2rem;
     background-color: #fff;
     border-color: black;
     color: #fff;
-    height: 100%;
-    width: 100%;
     grid-area: 7 / 1 / 7 /5;
 }
 
 .limpiar-memoria {
+    width: auto;
+    height: auto;
+    border-radius: 3px;
+    border: 1px solid #c4c4c4;
+    font-size: 2rem;
     background-color: #fff;
     border-color: black;
     color: #fff;
-    height: 100%;
-    width: 100%;
     grid-area: 8 / 1 / 8 /5;
+}
+
+
+body {
+    margin-top: 5em;
+}
+
+
+@media screen and (min-width: 700px) {
+    main {
+        position: absolute;
+        border: 1em solid #ccc;
+        border-radius: 1em;
+        /* display: block;*/
+        /*  transform: translate(-50%, -50%);*/
+        width: 50em;
+        height: 35em;
+    }
 }
