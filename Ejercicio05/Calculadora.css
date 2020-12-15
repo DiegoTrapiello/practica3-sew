@@ -8,7 +8,7 @@ ul {
 }
 
 h1 {
-    font-size: 5em;
+    font-size: 3em;
 }
 
 main {
@@ -99,6 +99,32 @@ body {
         /* display: block;*/
         /*  transform: translate(-50%, -50%);*/
         width: 50em;
+        height: 35em;
+    }
+}
+
+
+@media screen and (max-height: 568px) {
+    main {
+        position: absolute;
+        border: 1em solid #ccc;
+        border-radius: 1em;
+        /* display: block;*/
+        /*  transform: translate(-50%, -50%);*/
+        width: 80%;
+        height: 60%;
+    }
+}
+
+
+@media screen and (min-height: 568px) {
+    main {
+        position: absolute;
+        border: 1em solid #ccc;
+        border-radius: 1em;
+        /* display: block;*/
+        /*  transform: translate(-50%, -50%);*/
+        width: 50%;
         height: 35em;
     }
 }
